@@ -19,9 +19,9 @@
 # O monitoramento de acesso é o processo de rastrear e registrar as atividades de usuários em sistemas de computador, redes ou recursos específicos. Isso inclui acompanhar quem acessa o sistema, quando e quais ações são realizadas. Essa prática é fundamental para garantir a segurança da informação, detectar comportamentos suspeitos ou não autorizados, e cumprir requisitos de conformidade regulatória. O monitoramento de acesso geralmente envolve a coleta e análise de logs, uso de ferramentas de segurança, como firewalls e sistemas de detecção de intrusões, e a implementação de políticas de acesso e controle de privilégios.
 # 
 
-# ## 1. Como configurar/instalar o `auditd` no `Linux Ubuntu` [1][3]
+# ## 1. Como configurar/instalar/usar o `auditd` no `Linux Ubuntu` [1][3]
 # 
-# Para configurar/instalar o `auditd` no `Linux Ubuntu`, você pode seguir estes passos:
+# Para configurar/instalar/usar o `auditd` no `Linux Ubuntu`, você pode seguir estes passos:
 # 
 # 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`    
 
@@ -68,7 +68,8 @@
 # 
 # 1. **Verificar _logs_ do sistema:** Logs como `/var/log/auth.log` (em sistemas baseados em Debian) podem fornecer informações sobre tentativas de login e outras atividades de autenticação: `sudo cat /var/log/auth.log`
 # 
-# É importante manter o sistema atualizado e seguir as melhores práticas de segurança, como usar firewalls, alterar senhas regularmente e usar autenticação de dois fatores, se possível, para melhor proteger seu sistema contra acessos não autorizados.
+# É importante manter o sistema atualizado e seguir as melhores práticas de segurança, como usar _firewalls_, alterar senhas regularmente e usar autenticação de dois fatores, se possível, para melhor proteger seu sistema contra acessos não autorizados.
+# 
 
 # ### 1.2 Código completo para configurar/instalar
 # 
